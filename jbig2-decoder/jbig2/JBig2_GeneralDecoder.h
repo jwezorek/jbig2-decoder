@@ -6,23 +6,26 @@
 
 #ifndef _JBIG2_GENERAL_DECODER_H_
 #define _JBIG2_GENERAL_DECODER_H_
-#include "fx_codec_def.h"
-#include "fx_memory.h"
-#include "fx_pause.h"
+#include "../support/fx_codec_def.h"
+#include "../support/fx_memory.h"
+#include "../support/fx_pause.h"
+#include "../support/fx_coordinates.h"
 #include "JBig2_Define.h"
 #include "JBig2_SymbolDict.h"
 #include "JBig2_ArithDecoder.h"
 #include "JBig2_ArithIntDecoder.h"
-#include "fx_coordinates.h"
+
 class CJBig2_HuffmanTable;
 class CJBig2_Image;
 class CJBig2_PatternDict;
+
 typedef enum {
     JBIG2_CORNER_BOTTOMLEFT = 0,
     JBIG2_CORNER_TOPLEFT	= 1,
     JBIG2_CORNER_BOTTOMRIGHT = 2,
     JBIG2_CORNER_TOPRIGHT	= 3
 } JBig2Corner;
+
 class CJBig2_GRDProc : public CJBig2_Object
 {
 public:

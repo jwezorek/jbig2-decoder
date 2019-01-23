@@ -1,6 +1,6 @@
 #pragma once
 
-#include "jbig2/JBig2_Module.h"
+#include "../jbig2/JBig2_Module.h"
 
 class JBig2Module : public CJBig2_Module
 {

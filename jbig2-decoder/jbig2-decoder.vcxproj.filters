@@ -13,11 +13,17 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="jbig2">
-      <UniqueIdentifier>{1431d479-4b7a-42be-8ee0-f4272ca70964}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\jbig2">
       <UniqueIdentifier>{90e83b71-1240-48c6-8463-8a3403ae07b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\support">
+      <UniqueIdentifier>{b280311d-23df-4eb7-9dff-ed4936706ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\jbig2">
+      <UniqueIdentifier>{1431d479-4b7a-42be-8ee0-f4272ca70964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\support">
+      <UniqueIdentifier>{fa7dd4c1-c5a0-474b-b857-b630147b6d38}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -25,40 +31,40 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="jbig2\JBig2_SymbolDict.cpp">
-      <Filter>jbig2</Filter>
+      <Filter>Source Files\jbig2</Filter>
     </ClCompile>
     <ClCompile Include="jbig2\JBig2_Segment.cpp">
-      <Filter>jbig2</Filter>
+      <Filter>Source Files\jbig2</Filter>
     </ClCompile>
     <ClCompile Include="jbig2\JBig2_PatternDict.cpp">
-      <Filter>jbig2</Filter>
+      <Filter>Source Files\jbig2</Filter>
     </ClCompile>
     <ClCompile Include="jbig2\JBig2_Object.cpp">
-      <Filter>jbig2</Filter>
+      <Filter>Source Files\jbig2</Filter>
     </ClCompile>
     <ClCompile Include="jbig2\JBig2_Image.cpp">
-      <Filter>jbig2</Filter>
+      <Filter>Source Files\jbig2</Filter>
     </ClCompile>
     <ClCompile Include="jbig2\JBig2_HuffmanTable.cpp">
-      <Filter>jbig2</Filter>
+      <Filter>Source Files\jbig2</Filter>
     </ClCompile>
     <ClCompile Include="jbig2\JBig2_HuffmanDecoder.cpp">
-      <Filter>jbig2</Filter>
+      <Filter>Source Files\jbig2</Filter>
     </ClCompile>
     <ClCompile Include="jbig2\JBig2_GeneralDecoder.cpp">
-      <Filter>jbig2</Filter>
+      <Filter>Source Files\jbig2</Filter>
     </ClCompile>
     <ClCompile Include="jbig2\JBig2_Context.cpp">
-      <Filter>jbig2</Filter>
+      <Filter>Source Files\jbig2</Filter>
     </ClCompile>
     <ClCompile Include="jbig2\JBig2_ArithIntDecoder.cpp">
-      <Filter>jbig2</Filter>
+      <Filter>Source Files\jbig2</Filter>
     </ClCompile>
-    <ClCompile Include="module.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="support\fx_codec_fax.cpp">
+      <Filter>Source Files\support</Filter>
     </ClCompile>
-    <ClCompile Include="jbig2\fx_codec_fax.cpp">
-      <Filter>jbig2</Filter>
+    <ClCompile Include="support\module.cpp">
+      <Filter>Source Files\support</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -116,23 +122,23 @@
     <ClInclude Include="jbig2\JBig2_ArithDecoder.h">
       <Filter>Header Files\jbig2</Filter>
     </ClInclude>
-    <ClInclude Include="module.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="support\fx_codec_def.h">
+      <Filter>Header Files\support</Filter>
     </ClInclude>
-    <ClInclude Include="jbig2\fx_system.h">
-      <Filter>Header Files\jbig2</Filter>
+    <ClInclude Include="support\fx_coordinates.h">
+      <Filter>Header Files\support</Filter>
     </ClInclude>
-    <ClInclude Include="jbig2\fx_memory.h">
-      <Filter>Header Files\jbig2</Filter>
+    <ClInclude Include="support\fx_memory.h">
+      <Filter>Header Files\support</Filter>
     </ClInclude>
-    <ClInclude Include="jbig2\fx_coordinates.h">
-      <Filter>Header Files\jbig2</Filter>
+    <ClInclude Include="support\fx_pause.h">
+      <Filter>Header Files\support</Filter>
     </ClInclude>
-    <ClInclude Include="jbig2\fx_pause.h">
-      <Filter>Header Files\jbig2</Filter>
+    <ClInclude Include="support\fx_system.h">
+      <Filter>Header Files\support</Filter>
     </ClInclude>
-    <ClInclude Include="jbig2\fx_codec_def.h">
-      <Filter>Header Files\jbig2</Filter>
+    <ClInclude Include="support\module.h">
+      <Filter>Header Files\support</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -6,18 +6,21 @@
 
 #ifndef _JBIG2_CONTEXT_H_
 #define _JBIG2_CONTEXT_H_
+
 #include "JBig2_Module.h"
 #include "JBig2_List.h"
 #include "JBig2_Segment.h"
 #include "JBig2_Page.h"
 #include "JBig2_GeneralDecoder.h"
-#include "fx_codec_def.h"
-#include "fx_memory.h"
-#include "fx_pause.h"
+#include "../support/fx_codec_def.h"
+#include "../support/fx_memory.h"
+#include "../support/fx_pause.h"
+
 typedef enum {
     JBIG2_OUT_OF_PAGE = 0,
     JBIG2_IN_PAGE,
 } JBig2State;
+
 #define JBIG2_SUCCESS			 0
 #define JBIG2_FAILED			-1
 #define JBIG2_ERROR_TOO_SHORT	-2

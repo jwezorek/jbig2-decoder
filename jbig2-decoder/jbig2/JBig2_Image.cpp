@@ -5,8 +5,8 @@
 // Original code copyright 2014 Foxit Software Inc. http://www.foxitsoftware.com
 
 #include "JBig2_Image.h"
-#include "fx_memory.h"
-#include "fx_coordinates.h"
+#include "../support/fx_memory.h"
+#include "../support/fx_coordinates.h"
 #include <limits.h>
 CJBig2_Image::CJBig2_Image(FX_INT32 w, FX_INT32 h)
 {
