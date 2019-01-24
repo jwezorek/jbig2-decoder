@@ -69,6 +69,9 @@
     <ClCompile Include="support\getopt_pp.cpp">
       <Filter>Source Files\support</Filter>
     </ClCompile>
+    <ClCompile Include="support\image_write.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="jbig2\JBig2_SymbolDict.h">
@@ -144,6 +147,12 @@
       <Filter>Header Files\support</Filter>
     </ClInclude>
     <ClInclude Include="support\getopt_pp.h">
+      <Filter>Header Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\stb_image_write.h">
+      <Filter>Header Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\image_write.h">
       <Filter>Header Files\support</Filter>
     </ClInclude>
   </ItemGroup>
