@@ -166,6 +166,7 @@
     <ClCompile Include="jbig2\JBig2_PatternDict.cpp" />
     <ClCompile Include="jbig2\JBig2_Segment.cpp" />
     <ClCompile Include="jbig2\JBig2_SymbolDict.cpp" />
+    <ClCompile Include="support\file_io_aux.cpp" />
     <ClCompile Include="support\fx_codec_fax.cpp" />
     <ClCompile Include="support\getopt_pp.cpp" />
     <ClCompile Include="support\image_write.cpp" />
@@ -190,6 +191,7 @@
     <ClInclude Include="jbig2\JBig2_PatternDict.h" />
     <ClInclude Include="jbig2\JBig2_Segment.h" />
     <ClInclude Include="jbig2\JBig2_SymbolDict.h" />
+    <ClInclude Include="support\file_io_aux.h" />
     <ClInclude Include="support\fx_codec_def.h" />
     <ClInclude Include="support\fx_coordinates.h" />
     <ClInclude Include="support\fx_memory.h" />

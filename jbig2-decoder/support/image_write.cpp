@@ -35,6 +35,7 @@ std::vector<unsigned char> BitPerPixelToBytePerPixel(const CJBig2_Image* img)
 			std::copy(src, src + num_bytes_from_table, std::back_insert_iterator(output));
 		}
 	}
+
 	return output;
 }
 
@@ -88,5 +89,7 @@ void WriteImage(const std::string & filename, ImageFormat format, const CJBig2_I
 		case ImageFormat::JPEG:
 			stbi_write_jpg(filename.c_str(), jbig2_img->m_nWidth, jbig2_img->m_nHeight, 1, &(img[0]), 50);
 			break;
+		case ImageFormat::Unknown:
+			throw std::runtime_error("unknown ouput image format.");
 	}
 }
