@@ -167,6 +167,7 @@
     <ClCompile Include="jbig2\JBig2_Segment.cpp" />
     <ClCompile Include="jbig2\JBig2_SymbolDict.cpp" />
     <ClCompile Include="support\fx_codec_fax.cpp" />
+    <ClCompile Include="support\getopt_pp.cpp" />
     <ClCompile Include="support\module.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -193,6 +194,7 @@
     <ClInclude Include="support\fx_memory.h" />
     <ClInclude Include="support\fx_pause.h" />
     <ClInclude Include="support\fx_system.h" />
+    <ClInclude Include="support\getopt_pp.h" />
     <ClInclude Include="support\module.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
