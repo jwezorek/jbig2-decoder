@@ -4,8 +4,8 @@ Command line utility for decoding JBig2 (.jb2) files built using source code fro
 
 usage is like
 
-1. **`jbig2-decoder.exe -o  input.jb2`**  
-defaults to png formatted image file "input.png"
+1. **`jbig2-decoder.exe input.jb2`**  
+defaults to a png formatted image file "input.png"
 2. **`jbig2-decoder.exe -o test.png input.jb2`**  
 optionally specify an output file name with format implied by extension
 3. **`jbig2-decoder.exe -f png input.jb2`**  
